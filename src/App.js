@@ -1,57 +1,68 @@
-import React from 'react';
-import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
-import './App.css';
-
+import React, { createContext, useState } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js'; 
+import PrivateRoute from './components/LogIn/PrivateRoute/PrivateRoute';
+import './App.css'; 
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import Home from './components/Home/Home/Home'
+import Admin from './components/AdminPanel/Admin/Admin';
+import AdminHome from './components/AdminPanel/AdminPages/AdminHome/AdminHome'
+import AddCourse from './components/AdminPanel/AdminPages/AddCourse/AddCourse'; 
+import Navbar from './components/Shared/Navbar/Navbar';
+import Dashboard from './components/Home/Dashboard/Dashboard';
+import MyCourse from './components/AdminPanel/AdminPages/MyCourse/MyCourse';
+import MakeAdmin from './components/AdminPanel/AdminPages/MakeAdmin/MakeAdmin';
+import LogIn from './components/LogIn/LogIn/LogIn';
+export const UserContext = createContext()
 function App() {
+  const [loggedInUser, setLoggedInUser] = useState({});
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Counter />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <span>
-          <span>Learn </span>
-          <a
-            className="App-link"
-            href="https://reactjs.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React
-          </a>
-          <span>, </span>
-          <a
-            className="App-link"
-            href="https://redux.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Redux
-          </a>
-          <span>, </span>
-          <a
-            className="App-link"
-            href="https://redux-toolkit.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Redux Toolkit
-          </a>
-          ,<span> and </span>
-          <a
-            className="App-link"
-            href="https://react-redux.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React Redux
-          </a>
-        </span>
-      </header>
-    </div>
+    <UserContext.Provider value={[loggedInUser, setLoggedInUser]}>
+      <Router>
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <PrivateRoute path="/dashboard">
+             <Navbar navbar-bg={true}/>
+            <Dashboard/>
+          </PrivateRoute>
+          <Route path="/logIn">
+            <Navbar navbar-bg={true}/>
+            <LogIn/>
+          </Route>
+          <Route path="/home">
+            <Home />
+          </Route>
+
+          {/* <<<<<< Admin Section Routing >>>>>> */}
+          <Route path="/makeAdmin">
+            <Admin/>
+            <MakeAdmin/>
+          </Route>
+          <Route path="/myCourse">
+            <Admin/>
+            <MyCourse/>
+          </Route>
+          <Route path="/addPopularCourse">
+            <Admin />
+            <AddCourse />
+          </Route>
+          <Route path="/">
+            <Admin />
+            <AdminHome />
+          </Route>
+          <PrivateRoute path="/admin">
+            <Admin />
+          </PrivateRoute>
+        </Switch>
+      </Router>
+    </UserContext.Provider>
   );
 }
 

@@ -1,0 +1,10 @@
+.adminArea{
+    background-color: #DFD4CB;
+    width: 100%;
+    height: 610px;
+}
+.admin-formArea{
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+}

@@ -1,0 +1,28 @@
+.payment{
+    background-color: #8adbca;
+    border-radius: 8px;
+    padding: 20px;
+}
+.input-field{
+    color:#8ADBCA;
+    font-weight: bold;
+    letter-spacing: 0.025em;
+    background-color: whitesmoke;
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: bold; 
+}
+.pay-btn{
+    width: 100%;
+    height: 40px;
+    background-color:green;
+    border: none;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+.text-input{
+    border: none!important;
+     
+}

@@ -1,0 +1,17 @@
+[
+    {
+        "image": "https://i.ibb.co/JQ68znq/imgOne.jpg",
+        "title": "Best Industry Leaders",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In accusantium vel quasi consequatur, laudantium praesentium quam pariatur odio enim ullam!"
+    },
+    {
+        "image": "https://i.ibb.co/wQkgdQJ/ImgThree.jpg",
+        "title": "Learn Courses Online",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In accusantium vel quasi consequatur, laudantium praesentium quam pariatur odio enim ullam!"
+    },
+    {
+        "image": "https://i.ibb.co/9TT5P7w/ImgTwo.jpg",
+        "title": "Book Library & Store",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In accusantium vel quasi consequatur, laudantium praesentium quam pariatur odio enim ullam!"
+    }
+]

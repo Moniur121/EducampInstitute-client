@@ -1,0 +1,28 @@
+.headerSlider-container{
+    padding: 60px
+}
+.contactBtn{
+    width: 120px;
+    height: 50px;
+    background-color: whitesmoke;
+    color: #3B285A;
+    font-weight: bold;
+    border-radius: 401px;
+    border: none;
+    font-size: 17px;
+}
+.getStartedBtn {
+    width: 120px;
+    height: 50px;
+    background-color: #FFCA2C;
+    color: #3B285A;
+    font-weight: bold;
+    border-radius: 401px;
+    border: none;
+    font-size: 17px;
+    transition: all 1s ease;
+}
+.getStartedBtn:hover {
+    background-color:#3B285A;
+    color: whitesmoke;
+}

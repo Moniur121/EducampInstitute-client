@@ -1,0 +1,17 @@
+.card-f{
+    border: none !important;
+    background: none !important;
+}
+.instition-btn{
+    width: 120px;
+    height: 40px;
+    background-color: #FFCA2C;
+    border: none;
+    border-radius: 20px;
+    color: black;
+    transition: 1s ease;
+}
+.instition-btn:hover{
+    background-color:#4C1864;
+    color: whitesmoke;
+}

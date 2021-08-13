@@ -1,0 +1,71 @@
+.course-title{
+    width: 87px;
+    height: 30px;
+    background-color:  black;
+    color: whitesmoke;
+    border-radius:5px;
+    /* padding: 5px; */
+}
+.cardImg{
+    width: 100%!important;
+    height: 130px!important;
+}
+.coursePricing{
+    width: 70px;
+    height: 40px;
+    background-color: #3B285A;
+    color: whitesmoke;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* .card-b{
+    height: 400px!important;
+} */
+.card-commonBorder{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.555);
+    width: 100%;
+}
+.shop-img{
+    position: relative;
+}
+.pricing-area{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.courseTitle{
+    color: #3B285A!important;
+    font-weight: bold;
+     
+}
+.card-effect{
+    position: relative;
+    
+}
+.previewBtn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 30%;
+    height: 40px;
+    background-color: #FFCA2C;
+    border-radius: 3px;
+    border: none;
+    color: #3B285A;
+    font-weight: bold;
+
+}
+.buyNowBtn{
+    margin-top: 5px;
+    width: 100%;
+    height: 40px;
+    background-color: #FFCA2C;
+    border: none;
+    color: #3B285A;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: all 1s ease;
+     
+}

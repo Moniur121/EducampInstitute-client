@@ -1,0 +1,54 @@
+.logIn-formArea{
+    width: 500px;
+    min-height: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: rgba(59, 52, 52, 0.911);
+    
+     
+}
+.logIn-border{
+    border: 3px solid yellow;
+    width: 100%;
+}
+.form-submitBtn{
+    margin-left: 30%!important;
+    width: 180px;
+    height: 50px;
+    background-color: #FFCA2C;
+    border-radius: 40px;
+    color: #3B285A;
+    border: none;
+    font-size: 25px;
+    transition: all 1s ease;
+}
+/* .form-submitBtn:hover{
+    background-color: #007AC8;
+    color: whitesmoke;
+} */
+.singUp-option{
+    cursor: pointer;
+    text-align: center;
+    color: #FFCA2C!important;
+    font-weight: bold;
+    font-size: 25px;
+}
+.chcek-box{
+    margin-left: 30%!important;
+     
+}
+.googleSignIn{
+    width: 70%;
+    height: 50px;
+    background-color: #FFCA2C;
+    color: whitesmoke;
+    border-radius: 4px;
+    font-weight: bold;
+    border: none;
+    padding: 12px;
+}
+.google-icon{
+    font-size: 40px;
+    margin-top: -23px;
+}

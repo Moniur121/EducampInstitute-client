@@ -1,0 +1,21 @@
+ .card-imgage{
+     height: 170px!important;
+ }
+ .card-margin{
+     margin-top: -15px;
+ }
+ .cardImage{
+     position: relative;
+ }
+ .card-address{
+     position: absolute;
+     top: 4;
+     left: 4;
+     text-align: center;
+     width: 95px;
+     height: 70px;
+     background-color: #FFCA2C;
+     color: whitesmoke;
+     border-radius:8px
+
+ }
