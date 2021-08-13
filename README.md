@@ -8,5 +8,6 @@ Live Link: https://educamp-1b2b9.web.app/
 3. Our website has Dashboard and Admin, if the user is admin then only admin panel can be seen and if not admin then dashboard can be seen.
 4. Dashboard work is usually used by the user can go to the dashboard and see the course and enroll the course through stripe payment.
 5. The job of the admin panel is that the website can control all types of services.
+6. Complete CRUD operation
 
 **  Technology Uses: React.js , Modern JavaScript, Bootstrap 5, Stripe Payment Integration, React slick, React router, hook form. react modal.
