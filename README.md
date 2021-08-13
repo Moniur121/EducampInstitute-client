@@ -10,4 +10,4 @@ Live Link: https://educamp-1b2b9.web.app/
 5. The job of the admin panel is that the website can control all types of services.
 6. Complete CRUD operation
 
-**  Technology Uses: React.js , Modern JavaScript, Bootstrap 5, Stripe Payment Integration, React slick, React router, hook form. react modal.
+**  Technology Uses: React.js , Modern JavaScript, Bootstrap 5,Node.js, express.js, mongodb database, Firebase Authentication Stripe Payment Integration, React slick, React router, hook form. react modal.
